@@ -1,165 +1,32 @@
 /* App.css */
 
-/* Stylizacja strony głównej */
 
-ul {
-    list-style: none;
-}
-
-.title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.subtitle {
+.nav-list {
+    background-color: #b1c5da;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 24px;
-    margin-bottom: 16px;
-}
-
-.movie-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.movie-item {
-    margin-bottom: 8px;
-}
-
-.movie-link {
-    text-decoration: none;
-    color: #111010; /* Pomarańczowy */
-    transition: color 0.2s;
-}
-
-.movie-link:hover {
-    color: #3610e2; /* Czerwony */
-}
-
-/* Stylizacja wyszukiwania filmów */
-.search-box {
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-}
-
-.search-input {
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 8px;
-}
-
-.search-button {
-    background-color: #ff5733; /* Pomarańczowy */
-    color: white;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
     border: none;
-    border-radius: 4px;
-    padding: 8px 16px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.search-button:hover {
-    background-color: #d63447; /* Czerwony */
-}
-
-/* Stylizacja informacji o filmie */
-.movie-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 16px;
-}
-
-.movie-description {
-    font-size: 16px;
-    margin-bottom: 16px;
-}
-
-.cast-button,
-.reviews-button {
-    background-color: #ff5733; /* Pomarańczowy */
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 16px;
-    font-size: 16px;
-    margin-right: 16px;
-    cursor: pointer;
-}
-
-.cast-button:hover,
-.reviews-button:hover {
-    background-color: #d63447; /* Czerwony */
-}
-
-/* Stylizacja informacji o zespole aktorskim i recenzjach */
-.cast-info,
-.reviews-info {
-    font-size: 16px;
-    margin-top: 16px;
-}
-
-/* Stylizacja nawigacji */
-.nav-list {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 20px;
-    color: #ff5733; /* Pomarańczowy */
-    transition: color 0.3s;
-}
-
-.nav-link:hover {
-    color: #d63447; /* Czerwony */
-}
-/* Stylizacja zdjęć aktorów */
-.actor-image {
-    width: 100px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 8px; /* Dodaj odstęp między zdjęciami */
-    margin-bottom: 16px; /* Dodaj odstęp poniżej zdjęcia aktora */
-}
-
-/* Stylizacja zdjęć filmowych */
-.movie-poster {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    margin-right: 16px; /* Dodaj odstęp między zdjęciami filmowymi */
-    margin-bottom: 16px; /* Dodaj odstęp poniżej zdjęcia filmu */
-}
-/* Stylizacja informacji o filmie */
-.movie-info-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .movie-description {
-    flex: 1;
-    margin-right: 20px; /* Dodatkowy margines między opisem a pozostałymi informacjami */
-  }
-  
-  .movie-info-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .movie-info-list li {
-    margin-bottom: 8px;
-  }
-  
-  /* Stylizacja informacji o filmie - Produkcja */
-  .production-company-item {
-    margin-right: 20px; /* Dodatkowy margines między firmami produkcyjnymi */
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
   }
   

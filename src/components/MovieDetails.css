@@ -1,0 +1,111 @@
+/* MovieDetails.css */
+
+/* Styl dla kontenera filmu */
+.movie-details-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Styl dla plakatu filmowego */
+  .movie-poster {
+    flex: 0 0 30%;
+    margin-right: 20px;
+  }
+  
+  /* Styl dla plakatu filmowego - obrazka */
+  .movie-poster img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 100%;
+  }
+  
+  /* Styl dla informacji o filmie */
+  .movie-info {
+    flex: 1;
+  }
+  
+  /* Styl dla tytułu filmu */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styl dla opisu filmu */
+  .movie-description {
+    margin-top: 10px;
+  }
+  
+  /* Styl dla listy informacji o filmie */
+  .movie-info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styl dla elementów listy informacji o filmie */
+  .movie-info-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Styl dla przycisków "Zespół aktorski" i "Recenzje" */
+  button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styl dla listy obsady */
+  .cast-list {
+    list-style: none;
+    padding: 0;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  /* Styl dla elementów listy obsady */
+  .cast-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styl dla obrazków aktorów */
+  .cast-list-item img {
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styl dla listy recenzji */
+  .reviews-list {
+    list-style: none;
+    padding: 0;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  /* Styl dla elementów listy recenzji */
+  .reviews-list-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Styl dla tytułu recenzji */
+  .reviews-list-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Styl dla treści recenzji */
+  .reviews-list-item p {
+    margin-top: 5px;
+  }
+  .buttons-container button{
+    margin-left: 10px;
+  }
